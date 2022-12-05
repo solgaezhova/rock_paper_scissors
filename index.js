@@ -1,4 +1,4 @@
-prompt("Let's play 'Rock, paper, scissors' game! We are going to have five rounds. Good luck!'")
+prompt("Let's play 'Rock, paper, scissors' game! We are going to have five rounds. Good luck!")
 
 const validOptions = ["rock", "paper", "scissors"]
 
