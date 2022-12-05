@@ -1,3 +1,5 @@
+prompt("Let's play 'Rock, paper, scissors' game! We are going to have five rounds. Good luck!'")
+
 const validOptions = ["rock", "paper", "scissors"]
 
 let playerScore = 0;
@@ -48,7 +50,7 @@ const capitalizeFirstLetter = string => string.charAt(0).toUpperCase() + string.
 let userInput = () => {
     let inputValid = false;
     while (!inputValid) {
-        let playerSelection = prompt("Print 'rock', 'paper', or 'scissors'").toLowerCase();
+        let playerSelection = prompt("Print 'rock', 'paper', or 'scissors'").toLowerCase().trim();
         if (validOptions.includes(playerSelection)) {
             inputValid = true;
             return playerSelection;
